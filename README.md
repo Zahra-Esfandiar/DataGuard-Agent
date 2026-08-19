@@ -1,7 +1,9 @@
 # 🛡️ DataGuard Agent
+
 <p align="center">
-  <img src="assets/dataguard-demo.gif" width="900">
+  <img src="assets/DataGuard-Agent-demo.gif" width="900">
 </p>
+
 **AI-assisted Data Quality, Target Leakage, ML Readiness & Production Drift Auditor for real datasets.**
 
 This is not a "chat with a synthetic CSV" demo.
