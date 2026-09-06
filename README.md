@@ -1,137 +1,122 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:1E1B4B,45:4338CA,75:2563EB,100:0F766E&height=220&section=header&text=DataGuard-Agent&fontSize=65&fontColor=ffffff&animation=fadeIn" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,45:1D4ED8,75:0F766E,100:059669&height=240&section=header&text=DataGuard-Agent&fontSize=70&fontColor=ffffff&animation=fadeIn" />
 
 # 🛡️ DataGuard-Agent
 
-### AI-Assisted Data Quality • Leakage Detection • ML Readiness • Production Drift Monitoring
+### Trustworthy AI • Data-Centric ML • Automated Data Readiness Assessment
 
-**A trustworthy AI framework for preparing real-world datasets before machine learning deployment.**
+**An AI-assisted framework for auditing, validating, and preparing real-world datasets before machine learning deployment.**
 
 </div>
 
 ---
 
-## 🎯 Why DataGuard-Agent?
+## 🌍 Research Vision
 
-Modern machine learning systems often fail not because of the model, but because of hidden problems in data:
+Machine learning failures often originate before model training begins. DataGuard-Agent focuses on the **data intelligence layer** of ML systems:
 
-- Poor data quality
-- Target leakage
-- Invalid evaluation strategies
-- Distribution shifts after deployment
+📊 Data Quality → 🔍 Leakage Prevention → 📈 Drift Monitoring → 🤖 Explainable AI Assistance
 
-DataGuard-Agent provides an evidence-based audit layer before modeling.
-
-> Detect deterministically. Explain with AI. Never let the LLM invent the audit.
+The goal is to build reliable and reproducible ML pipelines where decisions are supported by statistical evidence.
 
 ---
 
-## 🔄 Intelligent Data Audit Workflow
+## 🔄 End-to-End Audit Workflow
 
 ```
-Dataset
-   ↓
-Quality Assessment
-   ↓
-Leakage & Feature Risk Detection
-   ↓
-Train/Test Split Recommendation
-   ↓
-Reference vs Production Drift Analysis
-   ↓
+Raw Dataset
+    ↓
+Data Quality Profiling
+    ↓
+Feature & Target Leakage Analysis
+    ↓
+Validation Strategy Recommendation
+    ↓
+Reference vs Production Drift Detection
+    ↓
 AI-Assisted Explanation & Reporting
 ```
 
 ---
 
-## 🔍 Core Capabilities
+## 🔍 Core Modules
 
 ### 📊 Data Quality Intelligence
 
-Detects:
+- Missingness analysis
+- Duplicate detection
+- Schema validation
+- Data type consistency checks
+- Category and feature risk assessment
+- Suspicious pattern detection
 
-- Missing values
-- Duplicate records
-- Constant features
-- Invalid data types
-- Inconsistent labels
-- Rare and high-cardinality categories
-- Extreme values and suspicious patterns
+### 🎯 Leakage Detection Engine
 
-### 🎯 Target Leakage Analysis
+Identifies:
 
-Identifies potential risks including:
-
-- Target copies
+- Target duplication
 - Future information leakage
-- Suspicious feature relationships
 - Post-outcome variables
+- Suspicious predictive relationships
 
-### 🔀 ML Split Strategy Advisor
+### 🔀 Validation Strategy Advisor
 
-Recommends appropriate validation strategies:
+Supports recommendations for:
 
-- Time-based split
-- Group-aware split
-- Stratified split
+- Time-aware validation
+- Group-aware splitting
+- Stratified evaluation
 
 ### 📈 Production Drift Monitoring
 
-Compares reference and current datasets using:
+Tracks:
 
-- Missingness changes
-- Schema changes
-- KS statistics
-- Jensen-Shannon distance
-- New/unseen categories
-
----
-
-## 🤖 AI Assistant Layer
-
-Gemini integration is optional.
-
-The model receives only compact audit evidence and helps with:
-
-- Prioritizing issues
-- Explaining modeling impact
-- Suggesting next steps
-
-The core auditing engine remains deterministic and reproducible.
+- Distribution changes
+- Missingness shifts
+- New categories
+- Statistical distance measures
 
 ---
 
-## 📦 Outputs
+## 🤖 AI Reviewer Layer
 
-DataGuard generates:
+The AI layer does not replace statistical auditing.
 
-✅ Data Readiness Score  
-✅ Evidence-based issue reports  
-✅ Leakage warnings  
-✅ Drift reports  
-✅ HTML/Markdown summaries  
-✅ Validation specification JSON  
-✅ Conservative cleaning suggestions  
+Instead:
+
+**Deterministic Engine → Evidence → AI Explanation**
+
+The assistant summarizes findings, prioritizes risks, and suggests next steps while keeping the underlying analysis reproducible.
 
 ---
 
 ## 🏗️ Architecture
 
 ```
-Input Data
-   |
-   ├── Quality Engine
-   ├── Leakage Engine
-   ├── Drift Engine
-   ├── Split Strategy Engine
-   |
-   ↓
-Audit Report
-   |
-   ↓
-AI Reviewer
+                Dataset
+                   |
+        +----------+----------+
+        |          |          |
+ Quality Engine  Leakage   Drift Engine
+        |          |          |
+        +----------+----------+
+                   |
+            Audit Report
+                   |
+            AI Explanation
 ```
+
+---
+
+## 📦 Outputs
+
+✅ Data Readiness Score  
+✅ Evidence-based audit report  
+✅ Leakage warnings  
+✅ Drift analysis report  
+✅ Validation recommendations  
+✅ Machine-readable summaries
 
 ---
 
@@ -141,19 +126,20 @@ AI Reviewer
 
 ---
 
-## 🚀 Research & Engineering Vision
+## 🚀 Applications
 
-DataGuard-Agent explores the intersection of:
+Designed for:
 
-📐 Statistical Reliability  →  🤖 Artificial Intelligence  →  🏭 Production ML Systems
-
-The goal is to make machine learning workflows more trustworthy, explainable, and reproducible.
+- Healthcare ML pipelines
+- Financial analytics
+- Enterprise AI systems
+- Research reproducibility workflows
 
 ---
 
 ## 👤 Author
 
 **Zahra Esfandiar**  
-Statistics & Data Science Researcher  
+Statistics & Data Science Researcher
 
-Interests: Statistical Machine Learning • Healthcare AI • Trustworthy AI • Data-Centric ML
+Research interests: Statistical Machine Learning • Biostatistics • Trustworthy AI • Data-Centric ML
