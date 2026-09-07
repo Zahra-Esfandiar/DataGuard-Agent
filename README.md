@@ -22,9 +22,33 @@ The goal is to build reliable and reproducible ML pipelines where decisions are 
 
 ---
 
+## ⚡ Quick Start
+
+```bash
+git clone https://github.com/Zahra-Esfandiar/DataGuard-Agent.git
+cd DataGuard-Agent
+python -m venv .venv
+```
+
+Activate the virtual environment for your operating system, then install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Streamlit application:
+
+```bash
+streamlit run app.py
+```
+
+Optional AI-assisted explanations can be configured through the environment settings documented in `.env.example`. The deterministic audit pipeline remains usable independently of an LLM provider.
+
+---
+
 ## 🔄 End-to-End Audit Workflow
 
-```
+```text
 Raw Dataset
     ↓
 Data Quality Profiling
@@ -93,7 +117,7 @@ The assistant summarizes findings, prioritizes risks, and suggests next steps wh
 
 ## 🏗️ Architecture
 
-```
+```text
                 Dataset
                    |
         +----------+----------+
@@ -106,6 +130,8 @@ The assistant summarizes findings, prioritizes risks, and suggests next steps wh
                    |
             AI Explanation
 ```
+
+Project implementation includes the Streamlit application, the `dataguard/` package, documentation, a smoke test, and reproducible dependency specification.
 
 ---
 
@@ -134,6 +160,14 @@ Designed for:
 - Financial analytics
 - Enterprise AI systems
 - Research reproducibility workflows
+
+---
+
+## 📚 Documentation
+
+- [`README_FA.md`](README_FA.md) — Persian overview
+- [`docs/`](docs/) — architecture and supporting documentation
+- [`.env.example`](.env.example) — optional environment configuration
 
 ---
 
